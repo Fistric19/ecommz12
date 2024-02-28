@@ -1,0 +1,171 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+.main {
+    min-height: 100vh;
+    width: 100%;   
+    background-image: url("maldives.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.nav-bar {
+    /** blue wala - rgba(20, 15, 66, 0.200)
+       white wala - rgba(255, 255, 255, 0.452)  (0.151 )**/ 
+    justify-content: space-between;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.200);   
+    height: 80px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    
+    
+
+}
+
+.logo {
+    padding-left: 50px;
+}
+
+.nav-bar ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding-right: 100px;
+
+}
+
+.nav-bar ul li {
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 30px;
+
+}
+
+.nav-bar ul li a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    text-shadow: 0px 0px px #0FB9C6;
+    color: black;
+    transition: 0.3s all ease-in-out;
+}
+
+.nav-bar ul li a:hover {
+    color: #0FB9C6;
+    
+}
+
+.Et, .Wd {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    justify-content: center;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.815);
+    
+    
+
+}
+.Et {
+    
+    width:400px;
+    font-size: 31px;
+    position: relative;
+    top: 150px;
+    left: 100px;
+    
+}
+.Wd {
+    width: 400px;
+    position: relative;
+    top: 110px;
+    left: 100px;
+    font-size:  50px;
+}
+
+.exp h1 a {
+    padding: 14px 30px;
+    border-radius: 16px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 560;
+    font-size: 16px;
+    position: relative;
+    top: 115px;
+    left: 100px;
+
+}
+
+.exp h1 a:hover {
+    background-color: #0FB9C6;
+    color: white;
+    transition: 0.2s all ease-in-out;
+}
+
+/**.exp {
+    display: flex;
+
+    border-radius: 16px;
+    background-color: white;
+    height: 50px;
+    width: 180px;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.644);
+} 
+.exp h1 {
+    
+    font-size: 16px;
+    font-weight: 560;
+}
+.exp h1 a {
+    text-decoration: none;
+    color: black;
+}
+.exp h1 a:hover {
+    
+    color:#0FB9C6;
+    transition: 0.3s all ease-in-out;
+}
+/**.exp:hover {
+    background-color: #0FB9C6;
+    transition: 0.6s all ease-in-out;
+}*/
+
+.main-2 {
+    min-height: 100vh;
+    width: 100%;   
+    /**background-image: url("scenery2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    */
+    background-color: white;
+}
+.aabout {
+    position: relative;
+    top: 12vh;
+    left: 60vh;
+    padding: 0px 15px;
+    height: 13cm;
+    width: 15cm;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0FB9C6;
+     
+    
+}
